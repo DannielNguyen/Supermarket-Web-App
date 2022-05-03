@@ -1,0 +1,239 @@
+/* Define standard html elements */
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px; /* Use % or em to make font sizes relative to this main size */
+    background-color: #E0E0E0;
+    /*background-image: url(../images/bgmain.jpg);*/
+	/*If you Don't like it cool to change it back*/
+    background-image: url(../images/background_Images_Mahogany.jpg);
+	background-repeat: none;
+	background-attachment: fixed;
+}
+img{
+    border: 0;
+}
+/* define tags with id for structure */
+#banner{
+}
+
+#content{
+    width: 85%;
+    float: left;
+    background-color: rgba(240,240,240,.1);
+}
+#footer{
+    margin-top: 15px;
+    border-top: 1px solid #404040; /*#d4b753;*/
+    font-size: .5em;
+}
+#loginstatus{
+    float: right;
+    font-size: .7em;
+}
+#main{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #404040;
+    border-left: 1px solid #404040;
+    border-bottom: 1px solid #101010;
+    border-right: 1px solid #101010;
+    background-image: url(../images/bg.jpg);
+}
+#menunavi{
+}
+#menunavi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+#menunavi ul  li{
+    display: inline;
+    padding: 0 45px 0 25px;
+}
+#menunavi li a{
+    text-decoration: none;
+    color: #000000;
+} 
+#menunavi li a:hover{
+    text-decoration: underline;
+}
+#menunavi li a:active{
+    color: #808080;
+}
+#menunavi li a:visited{
+    color: #808080;
+}
+#noitemsincart{
+}
+#quicklinks{
+    width: 15%;
+    float: right;
+}
+#quicklinks ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+#shoppingcart{
+    float:left;
+    font-size: .7em;
+}
+#sitesearch{
+    display: inline-block;
+}
+#totalarea{
+    float: right;
+    width: 180px;
+    text-align: right;
+}
+#usercontent{
+}
+
+/* define general classes */
+.cartimage{
+    border: 0;
+    padding: 2px;
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+.cartproducttitle{
+    font-size: .8em;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    width: 555px;
+
+}
+.cartorder{
+    display: inline-block;
+    font-size: .5em;
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+.cartproductarea{
+    padding: 0 2px 0 2px;
+    background-color:#ffffff;
+    border: 2px solid black;
+    display: table-cell;
+}
+.cartproductarea a{
+    font-size: .7em;
+    text-decoration: none;
+    color: #404040;
+    margin-left: 2px;
+}
+.cartwidget{
+    width: 80px;
+    float: right;
+}
+.center{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.checkouttitle{
+    text-align: center;
+    font-weight: bold;
+    background-color: #d4b753;
+}
+.clearfix{
+    clear: both;
+}
+.companybanner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.invisible{
+    display: none;
+}
+.latestproducts{
+    background-color:#d4b753;
+    color: #a50221;
+}
+.left{
+    float: left;
+}
+.linetotal{
+    width: 8em;
+    font-size: .7em;
+}
+.paymenttitle{
+    display: inline-block;
+    width: 180px;
+}
+.paymentwindow{
+    border: 5px solid #404040;
+}
+.productarea{
+    padding: 0 2px 0 2px;
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+.productarea a{
+    font-size: .7em;
+    text-decoration: none;
+    color: #404040;
+    margin-left: 2px;
+}
+.productcost{
+    font-size: .8em;
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+.productimage{
+    float: left;
+    margin: 2px 5px 1px 2px;
+    border: 0;
+}
+.productinfo{
+    font-size: .9em;
+    display: inline-block;
+    width: 680px;
+    
+}
+.productinstock{
+    font-size: .8em;
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+.producttitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    display: inline-block;
+    width: 550px;
+}
+.qo{
+    width: 3em;
+    font-size: .7em;
+}
+.right{
+    float: right;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+	font-size: 20px;
+    background-color: #E0E0E0;
+    background-image: url(../images/bgmain.jpg);
+}
+#content_area{
+
+	border-radius: 2px;
+	border: 2px solid #6495ED;
+	background-color: white;
+	height: 1000px;
+	width: 67.5%;
+	margin: auto;
+}
+.isvisible{
+    display: block;
+}
+
