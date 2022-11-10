@@ -6,9 +6,9 @@
     include_once "templates/sitetemplate.php";
 
 $servername = "localhost";
-$username = "pnguyen91";
-$password = "pnguyen91";
-$dbname = "pnguyen91";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error){
